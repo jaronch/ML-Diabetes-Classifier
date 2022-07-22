@@ -14,6 +14,8 @@ It was sourced from the National Institute of Diabetes and Digestive and Kidney 
 
 knn.py and naive.py house the respective functions that can be used for any nominal dataset in csv format with training and testing data. final_test.py is a program that has these algorithms classify on the Pima Indian Diabetes Dataset that has gone through 10-fold cross-validation, and prints the accuracy of classification of the algorithms to the screen.
 
+This project was done from scratch for uni coursework. The final mark was 100%.
+
 ## Technologies
 Project is created with:
 * python3
