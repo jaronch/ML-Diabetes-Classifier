@@ -26,7 +26,7 @@ To run this project which tests the accuracy of the algorithms on this dataset, 
 $ python3 final_test.py
 ```
 ## Further info
-The data has been slightly modified by replacing missing values with averages, and making all the input values nominal. In addition, the final_test.py program runs on csv and txt files of the same dataset that have gone through 10-fold cross-validation. For each fold, there is a separate 'training%d.csv', 'testing%d.csv' and 'testing_r%d.txt' file where %d are the integers from 1-10. This process of creating 10-fold cross-validated files was achieved with Weka Software. This project will soon develop the program further to do the process itself. 
+The data has been slightly modified by replacing missing values with averages, and making all the input values nominal. pima-indians-database.data and pima-indians-database.names show the data in this state. The data undergoes further processing in that all nominal values are normalised to a value between 0 and 1 to give attributes equal weighting, and the dataset was processed to allow for 10-fold cross-validation. For each fold, there is a separate 'training%d.csv', 'testing%d.csv' and 'testing_r%d.txt' file where %d are the integers from 1-10. This process of creating 10-fold cross-validated files was achieved with Weka Software. This project will soon develop the program further to do the process itself. 
 
 The final_test.py program will print to standard output the accuracy results of our classifiers. On this dataset with 10-fold cross-validation, my Naive Bayes Algorithm achieves an accuracy of 75.00%, and for the kNN algorithm, when k = 1 an accuracy of 69.27% is achieved, and for k = 5 an accuracy of 75.52% is achieved.
 
