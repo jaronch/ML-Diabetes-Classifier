@@ -22,8 +22,13 @@ Project is created with:
 * Weka - Machine Learning Software used to split files and also cross-check correctness of my algorithms completed from scratch.
 	
 ## Setup
-To run this project which tests the accuracy of the algorithms on this dataset, have python3 installed and run:
+To run this project which tests the accuracy of the algorithms on this dataset, have python3 installed and also have numpy, csv and math modules installed. csv and math comes with the inbuilt package, so no need to install them separately. 
+To install numpy:
+```
+pip install numpy
+```
 
+To run the program which prints the accuracies of the algorithms on the 10-fold cross-validated dataset, run:
 ```
 $ python3 final_test.py
 ```
